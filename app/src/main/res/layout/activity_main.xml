@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.teodora.myapplication.WishlistActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <EditText
+        android:id="@+id/wishEdit"
+        android:layout_width="241dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:hint="@string/edit_wishlist"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteY="73dp"
+        tools:layout_editor_absoluteX="32dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginStart="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/wishAdd"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:layout_above="@+id/wishlist_view"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_toEndOf="@+id/wishEdit"
+        android:background="@android:color/holo_blue_dark"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:elevation="0dp"
+        android:onClick="addWishToRead"
+        android:text="@string/send_wishlist"
+        tools:layout_editor_absoluteX="297dp"
+        tools:layout_editor_absoluteY="74dp" />
+
+    <ListView
+        android:id="@+id/wishlist_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/wishEdit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp" />
+
+</RelativeLayout>

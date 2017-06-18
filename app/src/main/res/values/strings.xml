@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Book world</string>
+    <string name="edit_reading">What\'ve you been reading?</string>
+    <string name="edit_wishlist">What do you wish to read?</string>
+    <string name="edit_read">What did you finish reading?</string>
+    <string name="send_read">Add</string>
+    <string name="send_reading">Add</string>
+    <string name="send_wishlist">Add</string>
+    <string name="title_activity_book_details">BookDetailsActivity</string>
+    <string name="wishlist_book">WishlistBook</string>
+    <string name="already_read_book">AlreadyReadBook</string>
+</resources>
